@@ -1,0 +1,89 @@
+/** style **/
+html{
+  background: #693001;
+}
+
+   
+body {
+    
+    line-height: 1.5;
+    font-family: 'Baskerville', serif;
+    text-align: center;
+    color: #A46C3E;
+    font-size: 23px;
+   
+
+
+  }
+
+  /* Pour la barre de navigation */
+  
+    /* Pour image du logo */
+  .logo {
+    width: 333px;
+    height: 150px;
+    margin-bottom:  10px;
+  }
+
+   /* Pour l'image a laccueil */
+
+  
+
+  /* Mettre en horizontale et les espacers */
+      
+  nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 33px;
+  
+  }
+
+  /* Mettre en blanc et enlever les surlignement */
+
+  nav ul li a {
+    text-decoration: none;
+    color: #A46C3E;
+    
+  }
+  
+   /* survole et sa donne un vert/jaune */
+      
+   a:hover {
+    color: #834716;
+  }
+
+  .image-container {
+   
+    position: relative;
+    display: inline-block;
+   
+  
+  }
+
+
+  .accueil {
+    width: 1080px;
+    height: 600px;
+ 
+  }
+
+  .image-container img {
+    display: block;
+    max-width: 100%;   
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .image-container .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #A46C3E;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  
+ 
+  }
+  
