@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
     font-family: 'Baskerville', serif;
     text-align: center;
-    color: #A46C3E;
+    color: #ffc788;
     font-size: 23px;
    
 
@@ -42,14 +42,14 @@ body {
 
   nav ul li a {
     text-decoration: none;
-    color: #A46C3E;
+    color: #ffc788;
     
   }
   
    /* survole et sa donne un vert/jaune */
       
    a:hover {
-    color: #834716;
+    color: #fffabb;
   }
 
   .image-container {
@@ -70,7 +70,6 @@ body {
   .image-container img {
     display: block;
     max-width: 100%;   
-    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .image-container .overlay-text {
@@ -78,7 +77,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #A46C3E;
+    color: #ffc788;
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
@@ -87,3 +86,9 @@ body {
  
   }
   
+  .portfolio_img img {
+    position: relative;
+    width: 1000px;    /* Changez la valeur selon votre préférence */
+    height: 1000px;   /* Changez la valeur selon votre préférence */
+    object-fit: cover; /* Ceci garantit que l'image couvre entièrement la taille définie sans se déformer */
+}
