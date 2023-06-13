@@ -67,8 +67,6 @@ body {
    
   
   }
-
-
   .accueil {
     width: 1080px;
     height: 600px;
@@ -103,14 +101,14 @@ body {
 
   img{
     margin-top: 15px;
-    width: 333px;
-    height: 400px;
+    width: 400px;
+    height: 500px;
   }
 
   .portfolio_img img {
     position: relative;
-    width: 700px;    /* Changez la valeur selon votre préférence */
-    height: 700px;   /* Changez la valeur selon votre préférence */
+    width: 400px;    /* Changez la valeur selon votre préférence */
+    height: 600px;   /* Changez la valeur selon votre préférence */
     object-fit: cover; /* Ceci garantit que l'image couvre entièrement la taille définie sans se déformer */
 }
 
@@ -126,6 +124,24 @@ body {
   margin: 15px 15px 15px 15px;
   
 }
-h3 {
-  color:#fffabb;
+
+
+/** POUR CENTRER LE PORTFOLIO**/
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+tr td {
+  padding: 33px;
+  color: #693001;
+  font-family: 'Baskerville', serif;
+  background-color:#ffc787;
+
+
+}
+
+.propos {
+    margin-left: 100px;
+    margin-right: 100px;
+  
 }
