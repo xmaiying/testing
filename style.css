@@ -1,5 +1,6 @@
 /** style **/
 html{
+
   background: #693001;
 }
 
@@ -9,7 +10,7 @@ body {
     line-height: 1.5;
     font-family: 'Baskerville', serif;
     text-align: center;
-    color: #ffc788;
+    color: #ffc787;
     font-size: 23px;
    
 
@@ -30,7 +31,14 @@ body {
   
 
   /* Mettre en horizontale et les espacers */
-      
+  .nav{
+    min-height: 50px;
+    min-width: 1000px;
+    font-size: larger;
+    font-size: 23px;
+    
+  }
+
   nav ul li {
     display: inline-block;
     margin-right: 100px;
@@ -72,7 +80,7 @@ body {
     max-width: 100%;   
   }
 
-  .image-container .overlay-text {
+  .image-container .slogan {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -86,9 +94,38 @@ body {
  
   }
   
+  input{
+    background-color:#ffc788 ;
+  }
+  textarea{
+    background-color:#ffc788 ;
+  }
+
+  img{
+    margin-top: 15px;
+    width: 333px;
+    height: 400px;
+  }
+
   .portfolio_img img {
     position: relative;
-    width: 1000px;    /* Changez la valeur selon votre préférence */
-    height: 1000px;   /* Changez la valeur selon votre préférence */
+    width: 700px;    /* Changez la valeur selon votre préférence */
+    height: 700px;   /* Changez la valeur selon votre préférence */
     object-fit: cover; /* Ceci garantit que l'image couvre entièrement la taille définie sans se déformer */
+}
+
+.gauche {
+  
+  float: left;    
+   margin: 15px 15px 15px 15px;
+  
+}
+.droite {
+  
+  float: right;    
+  margin: 15px 15px 15px 15px;
+  
+}
+h3 {
+  color:#fffabb;
 }
