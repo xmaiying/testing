@@ -1,50 +1,58 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
+    <meta charset="UTF-8" />
 
-  <meta charset="UTF-8">
+    <title>Maquifique</title>
 
-  <title>Maquifique</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
- 
-</head>
+  <body>
+    <nav class="nav">
+      <img class="logo" src="Image\logo.png" />
+      <ul>
+        <li><a href="Accueil.html">Accueil</a></li>
+        <li><a href="Apropos.html">À propos</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Portfolio.html ">Portfolio</a></li>
+        <li><a href="Contact.html ">Contact</a></li>
+      </ul>
+    </nav>
 
-<body>
-  <nav>
-<img class="logo" src="Image\logo.png">
-  <ul>
-    <li><a href="Accueil.html">Accueil</a></li>
-    <li><a href="Apropos.html">À propos</a></li>
-    <li><a href="Services.html">Services</a></li>
-    <li><a href="Portfolio.html ">Portfolio</a></li>
-    <li><a href="Contact.html ">Contact</a></li>
-  </ul>
-</nav>
+    <h2>Reservez des maintenants pour une seance !</h2>
+    
+    <div class="reglement">
+      <h2>Avant la seance de maquillage ...</h2>
+      <ul>
+        <li>Assurez-vous d'avoir une peau propre et hydratée.</li>
+        <li>Communiquez vos attentes et préférences au maquilleur.</li>
+        <li>Informez-le de tout problème de peau ou d'allergie.</li>
+        <li>Démaquillez-vous avant la séance.</li>
+      </ul>
+    </div>
 
-
-<div class="formulaire">
-  <h2>Formulaire de consultation</h2>
-  <br>
-  <h3>Nom complet</h3>
-  <label>Nom:</label>
-  <input type="text" name="nom">
-  <label>Prenom:</label>
-  <input type="text" name="prenom">
-  <br>
-  <label>Telephone:</label>
-  <input type="text" name="Telephone">
-  <label>Email:</label>
-  <input type="text" name="Email"><br>
-  <label>Date:</label>
-  <input type="date">
-  <br>
-  <label>Informations supplémentaires</label><br>
-  <textarea name="description" cols="60" rows="5"></textarea>
-  <input type="submit">
-</div>
-  <footer>
-    <p> My-Anh Chau 2023</p>
-  </footer>
-</body>
+    <form>
+      <fieldset>
+        <legend>Formulaire de consultation</legend>
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom"><br>
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom"><br>
+        <label>Telephone:</label>
+        <input type="text" name="Telephone" />
+        <label>Email:</label>
+        <input type="text" name="Email" /><br />
+        <label>Date:</label>
+        <input type="date" />
+        <br />
+        <label>Informations supplémentaires</label><br />
+        <textarea name="description" cols="60" rows="5"></textarea>
+        <input type="submit" />
+        <a href="#">REVENIR VERS LE HAUT</a>
+   
+    <footer>
+      <p>My-Anh Chau 2023</p>
+    </footer>
+  </body>
 </html>
