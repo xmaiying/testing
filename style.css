@@ -1,189 +1,133 @@
 /** style **/
-body {
-    
-    line-height: 1.5;
-    font-family: 'Baskerville', serif;
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-size: 28px;
+    font-family: 'Baskerville', sans-serif;
     text-align: center;
-    color: #ffc787;
-    font-size: 23px;
-    background: #693001;
-   }
+ /** 
+    line-height: 1.5;
+   /** background: #693001; **/
+  }
 
+  footer {
+    background-color: black;
+  }
+
+   .accueil{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-image: url(une_brosse.jpg);
+    background-position: center;
+    background-size: contain; 
+
+    position: relative;
+  }
   
-  /* Pour la barre de navigation */
+  .accueil > h2 {
+    font-size: 5rem; color:#fff9f9; font-weight: bold;
+    position: fixed; 
+    top: 50%;
+    left: 20%;
+    margin-top: -100px;
+    margin-left: -100px;
+  }
+   /* Pour la barre de navigation */
   
     /* Pour image du logo */
-  .logo {
-    width: 333px;
-    height: 133px;
-    object-fit: fill;
-    float: left;
-  }
-
-   /* Pour l'image a laccueil */
-
-  
-
-  /* Mettre en horizontale et les espacers */
-
-
-
-  .nav{
-    
-    height: 140px;
-    min-height: 50px;
-    min-width: 1000px;
-    font-size: larger;
-    font-size: 23px;
-    
-   
-  
-    
-  }
-
-  nav ul li {
-    margin-top: 40px;
-    display: inline-block;
-  
-  }
-
-  /* Mettre en blanc et enlever les surlignement */
-
-  nav ul li a {
-    
-    text-decoration: none;
-    color: #ffc788;
-    border-width: 10px;
-    padding: 22px 55px;
-    border-radius: 20px;
-    
-  }
-  
-   /* survole et sa donne un vert/jaune */
+    .logo {
+      margin-left: 40px;
+      margin-top: 40px;
+      height: 75px;
+      object-fit: fill;
+      float: left;
+      margin-right: 230px;
       
-  .nav a:hover {
-    color: #fffabb;
-    background-color: #4d2403;
-  }
+    }
+  
+     /* Pour l'image a laccueil */
+  
+    
+  
+    /* Mettre en horizontale et les espacers */
+
+    .nav{ 
+      background-color: black;
+      min-height: 50px;
+      font-size: larger;
+      font-size: 23px;
+    }
+  
+    nav ul li {
+      margin: 60px 30px;
+      display: inline-block;
+    }
+  
+    /* Mettre en blanc et enlever les surlignement */
+  
+    nav ul li a {
       
+      text-decoration: none;
+      font-family: 'Baskerville', serif;
+      font-weight: bold;
+      border-width: 10px;
+      padding: 22px 55px;
+      border-radius: 20px;
+      
+    }
+    
+     /* survole et sa donne un vert/jaune */
+        
+    .nav a:hover {
+      color: #ffffff;
+     text-decoration: underline;
+      background-color: #201c1c;
+    }
 
-
-  .image-container {
-   
-    position: relative;
-    display: inline-block;
-   
-  
-  }
-  .accueil {
-    width: 1080px;
-    height: 600px;
- 
-  }
-
-  .image-container img {
-    display: block;
-    max-width: 100%;   
-  }
-
-  .image-container .slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ffc788;
-    font-size: 40px;
-    font-weight: bolder;
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  
- 
-  }
-  
-  input{
-    background-color:#ffc788 ;
-    border-radius: 10px;
-  }
-  textarea{
-    background-color:#ffc788 ;
-    border-radius: 10px;
+        /* Page a propos */
+    
+  .apropos{
+    background-image: url(entrainMaquiller.jpg);
+    background-position: center;
+    background-size:cover; 
+    background-color: black;
   }
 
-  img{
-    margin-top: 15px;
+  .propos{
+    margin-top: 100px;
+  }
+
+   img {
     width: 400px;
-    height: 500px;
-    border-radius: 10px;
+    height: 450px;
     object-fit: cover;
   }
 
-
-
   .gauche {
     position:relative;
-
     float: left;    
-     margin: 15px 15px 15px 15px;
-    
+     margin: 33px 15px 15px 15px;
+
   }
   .droite {
-       position:relative;
+    position:relative;
     float: right;    
-    margin: 15px 15px 15px 15px;
+    margin: 33px 15px 15px 15px;
+
+  }
+
+  p {
+    margin: 35px;
+    text-align: center;
+    font-size: 22px;
     
   }
 
-
-
-/** POUR CENTRER LE PORTFOLIO**/
-table{
-  margin-left: auto;
-  margin-right: auto;
-}
-tr td {
-  padding: 33px;
-  color: #693001;
-  font-family: 'Baskerville', serif;
-  background-color:#ffc787;
-  border-radius: 10px;
-
-
-}
-
-.propos {
-    margin-left: 100px;
-    margin-right: 100px;
-  
-}
-a {
-  text-decoration: none;
-  color: #ffc788;
-}
-
-.reglement {
-
-  border: 10px #4d2403 solid;
-  background-color: #4d2403 ;
-  padding: 0px;
-  margin: 100px 550px;
-  border-radius: 10px;
-
-}
-
-.reglement h2{
-  font-style: italic;
-}
-.reglement ul{
-list-style: none;
-
-}
-
-.reseaux a img{
-  display: block;
-  margin-top: 15px;
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
-  object-fit: cover;
-  
-}
+  h2 {
+    margin: 35px;
+    font-size: 33px;
+    text-decoration:underline;
+    
+  }
