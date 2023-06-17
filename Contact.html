@@ -7,7 +7,7 @@
   <title>Maquifique</title>
 
   <link rel="stylesheet" type="text/css" href="style.css">
- 
+  <script src="https://kit.fontawesome.com/e5437dc061.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -22,30 +22,57 @@
   </ul>
 </nav>
 <div>
-  <h1>Mes contacts<h1>
-<div class="reseaux">
-    <a href="mailto:myanh_chau@Outlook.com" target="_blank"><img src="/Image/emailIcon.png" alt="Email Icon"></a>
-      
-    <a href="https://www.instagram.com/" target="_blank"><img src="/Image/youtubeIcon.png" alt="Youtube Icon"></a>
-   
-    <a href="https://www.youtube.com/" target="_blank"><img src="/Image/igIcon.png" alt="Instagram Icon"></a>
 
-  <br>
-</div>
+  <h1>Formulaire de Plainte</h1>
   
+  <form action="#" method="post">
+    <div class="formulairePlainte">
 
-<label>Email:</label>
-<input type="text" name="Email"><br>
-<label>Plainte/Commentaire</label><br>
-<textarea name="plainteCommentaire" cols="60" rows="5"></textarea>
-<br>
+    <div class="nomComplet">
+      <label for="nom">Nom :</label>
+      <label for="nom">Prenom :</label><br>
+      
+      <input type="text" id="nom" name="nom" required >
+      <input type="text" id="prenom" name="prenom" required>
+    </div>
+    
+    <div class="email">
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div class="sujet">
+      <label for="sujet">Sujet :</label>
+      <input type="text" id="sujet" name="sujet" required>
+    </div>
+    
+    <div class="description">
+      <label for="description">Description :</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+    </div>
+    
+    <div class="date">
+      <label for="date">Date de l'incident :</label>
+      <input type="date" id="date" name="date" required>
+    </div>
+    
+    <div>
+      <input type="submit" value="Soumettre">
+    </div>
+  </div>
+  </form>
 
 
-<input type="submit">
-<div>
-  <a href="#">REVENIR VERS LE HAUT</a>
+
+  <div class="up">
+    <a href="#"><i class="fa-solid fa-turn-up"></i></a>
+    </div>
   <footer>
-    <p> My-Anh Chau 2023</p>
+    <p>&copy;2023 MY-ANH CHAU,Tous droits réservés. </p>
+    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></i></a>
+    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></i></a>
   </footer>
 </body>
 </html>

@@ -2,60 +2,104 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-
     <title>Maquifique</title>
-
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/e5437dc061.js" crossorigin="anonymous"></script>
   </head>
-
-  <body>
+  <body class="bodyservice">
     <nav class="nav">
-      <img class="logo" src="Image\logo.png" />
+      <img class="logo" src="Image/logo.png" />
       <ul>
         <li><a href="Accueil.html">Accueil</a></li>
         <li><a href="Apropos.html">À propos</a></li>
         <li><a href="Services.html">Services</a></li>
-        <li><a href="Portfolio.html ">Portfolio</a></li>
-        <li><a href="Contact.html ">Contact</a></li>
+        <li><a href="Portfolio.html">Portfolio</a></li>
+        <li><a href="Contact.html">Contact</a></li>
       </ul>
     </nav>
-<div class="services">
-  <div class="reglement">
-    <div class="gauche">
-    <h1>Reservez des maintenants pour une seance !</h1>
-      <h2>Avant la seance de maquillage ...</h2>
-      <ul>
-        <li>Assurez-vous d'avoir une peau propre et hydratée.</li>
-        <li>Communiquez vos attentes et préférences au maquilleur.</li>
-        <li>Informez-le de tout problème de peau ou d'allergie.</li>
-        <li>Démaquillez-vous avant la séance.</li>
-      </ul>
+
+
+    <div class="services">
+      <div class="reglement">
+        <div>
+          <h1>N'hésitez pas à nous contacter !</h1><br>
+          <i class="fa-solid fa-bell"></i><br><br>
+          <h2>Avant la séance de maquillage...</h2><br>
+          <ul>
+            <li>Assurez-vous d'avoir une peau propre et hydratée.</li>
+            <li>Communiquez vos attentes et préférences au maquilleur.</li>
+            <li>Informez sur tout vos problème de peau ou d'allergie.</li>
+            <li>Démaquillez-vous avant la séance.</li>
+          </ul>
+        </div>
+<br>
+<div class="ordonnee">
+  <h1>La palette de vos envies : explorez notre univers maquifique !</h1>
+    <ol>
+      <li><a href="Apropos.html#histoire"><i class="fa-solid fa-heart"></i> Histoire</a></li>
+      <li><a href="Apropos.html#mission"><i class="fa-solid fa-heart"></i> Mission</a></li>
+      <li><a href="Apropos.html#cosmetique"><i class="fa-solid fa-heart"></i> Cosmetique</a></li>
+    </ol>
+</div>
+
+      </div>
+      <form class="formulaire">
+        <fieldset>
+          
+          <legend>Travaillons ensemble</legend>
+          <br/>
+          <a href="mailto:myanh_chau@outlook.com"><i class="fa-regular fa-envelope"></i></a>
+          <a href="mailto:myanh_chau@outlook.com">Email: Myanh_Chau@outlook.com</a>
+      
+<div class="centrer">
+          <label for="nomObligatoire">Nom complet (obligatoire)</label>
+          
+      
+          <div class="nomcompletlabel">
+          <label for="nom">Nom :</label>
+          <label for="prenom">Prénom :</label><br>
+          </div>
+       
+          <div class="nomcompletinput">
+          <input type="text" id="nom" name="nom" />
+          <input type="text" id="prenom" name="prenom" />
+        </div>
+      
+
+        <br><br>
+        
+          <label>Email (obligatoire)</label>
+          <div class="memeinput">
+          <input type="text" name="Email" />
+          </div>
+          <br>
+          
+          <label>Commentaire(s)/ Plainte(s) </label>
+          <div class="memeinput">
+          <input type="text" name="sujet" />
+        </div>
+          <br>
+          
+          <label>Message (obligatoire)</label>
+          <textarea name="description" cols="60" rows="5"></textarea><br>
+          <div class="soumettre">
+          <input type="submit" value="ENTRER"/>
+          
+        </div>
+        </div>
+      </div>
+        </fieldset>
+      </form>
     </div>
-  </div>
-<div class="droite">
-    <form>
-      <fieldset>
-        <legend>Formulaire de consultation</legend>
-        <label for="nom">Nom :</label>
-        <input type="text" id="nom" name="nom"><br>
-        <label for="prenom">Prénom :</label>
-        <input type="text" id="prenom" name="prenom"><br>
-        <label>Telephone:</label>
-        <input type="text" name="Telephone" />
-        <label>Email:</label>
-        <input type="text" name="Email" /><br />
-        <label>Date:</label>
-        <input type="date" />
-        <br />
-        <label>Informations supplémentaires</label><br />
-        <textarea name="description" cols="60" rows="5"></textarea><br />
-        <input type="submit" />
-     
-      </fieldset>
-    </form>
-  </div>
+    <div class="up">
+      <a href="#"><i class="fa-solid fa-turn-up"></i></a>
+    </div>
     <footer>
-      <p>My-Anh Chau 2023</p>
+      <p>&copy;2023 MY-ANH CHAU, Tous droits réservés.</p>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
     </footer>
   </body>
 </html>
