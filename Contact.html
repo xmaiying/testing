@@ -1,107 +1,102 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Maquifique</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="https://kit.fontawesome.com/e5437dc061.js" crossorigin="anonymous"></script>
-  </head>
-  <body class="bodyservice">
-    <nav class="nav">
-      <img class="logo" src="Image\logo.png">
-        <ul>
-          <li><a href="Accueil.html">Accueil</a></li>
-          <li><a href="Apropos.html">À propos</a></li>
-          <li><a href="Services.html">Services</a></li>
-          <li><a href="Details.html ">Details</a></li>
-          <li><a href="Contact.html ">Contact</a></li>
-        </ul>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <title>Maquifique</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body class="bodyservice">
+  <nav class="nav">
+    <img class="logo" src="Image\logo.png">
+    <ul>
+      <li><a href="Accueil.html">Accueil</a></li>
+      <li><a href="Apropos.html">À propos</a></li>
+      <li><a href="Services.html">Services</a></li>
+      <li><a href="Details.html">Details</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+  <div class="services">
+    <a id="service"></a>
+    <div class="reglement">
       <div>
-
-
-    <div class="services">
-      <a id="service"></a>
-      <div class="reglement">
-        <div>
-          <h1>N'hésitez pas à nous contacter !</h1><br>
-          <i class="fa-solid fa-bell"></i><br><br>
-          <h2>Avant la séance de maquillage...</h2><br>
-          <ul>
-            <li>Assurez-vous d'avoir une peau propre et hydratée.</li>
-            <li>Communiquez vos attentes et préférences au maquilleur.</li>
-            <li>Informez sur tout vos problème de peau ou d'allergie.</li>
-            <li>Démaquillez-vous avant la séance.</li>
-          </ul>
-        </div>
-<br>
-<div class="ordonnee">
-  <h1>La palette de vos envies : explorez notre univers maquifique !</h1>
-    <ol>
-      <li><a href="Apropos.html#histoire"> Histoire</a></li>
-      <li><a href="Apropos.html#mission">Mission</a></li>
-      <li><a href="Apropos.html#cosmetique">Cosmetique</a></li>
-    </ol>
-</div>
-
+        <h1>N'hésitez pas à nous contacter !</h1><br>
+        <h2>Avant la séance de maquillage...</h2><br>
+        <ul>
+          <li>Assurez-vous d'avoir une peau propre et hydratée.</li>
+          <li>Communiquez vos attentes et préférences au maquilleur.</li>
+          <li>Informez sur tout vos problème de peau ou d'allergie.</li>
+          <li>Démaquillez-vous avant la séance.</li>
+        </ul>
       </div>
-      <form class="formulaire">
-        <fieldset>
-          
-          <legend>Travaillons ensemble</legend>
-          <br/>
-          <a href="mailto:myanh_chau@outlook.com"><i class="fa-regular fa-envelope"></i></a>
-          <a href="mailto:myanh_chau@outlook.com">Email: Myanh_Chau@outlook.com</a>
-      
-<div class="centrer">
+      <br>
+      <div class="ordonnee">
+        <h1>La palette de vos envies : explorez notre univers maquifique !</h1>
+        <ol>
+          <li><a href="Apropos.html#histoire"> Histoire</a></li>
+          <li><a href="Apropos.html#mission">Mission</a></li>
+          <li><a href="Apropos.html#cosmetique">Cosmetique</a></li>
+        </ol>
+      </div>
+    </div>
+    
+    <form class="formulaire">
+      <fieldset>
+        <legend>Travaillons ensemble</legend>
+        <br>
+        <a href="mailto:myanh_chau@outlook.com">Email: Myanh_Chau@outlook.com</a>
+        <br>
+        
+        <div class="centrer">
           <label for="nomObligatoire">Nom complet (obligatoire)</label>
           
-      
           <div class="nomcompletlabel">
-          <label for="nom">Nom :</label>
-          <label for="prenom">Prénom :</label><br>
+            <label for="nom">Nom :</label>
+            <label for="prenom">Prénom :</label><br>
           </div>
        
           <div class="nomcompletinput">
-          <input type="text" id="nom" name="nom" />
-          <input type="text" id="prenom" name="prenom" />
-        </div>
-      
-
-        <br><br>
+            <input type="text" id="nom" name="nom" />
+            <input type="text" id="prenom" name="prenom" />
+          </div>
+        
+          <br><br>
         
           <label>Email (obligatoire)</label>
           <div class="memeinput">
-          <input type="text" name="Email" />
+            <input type="text" name="Email" />
           </div>
           <br>
           
           <label> Sujet </label>
           <div class="memeinput">
-          <input type="text" name="sujet" />
-        </div>
+            <input type="text" name="sujet" />
+          </div>
           <br>
           
           <label>Commentaire(s)/ Plainte(s) </label>
           <textarea name="description" cols="60" rows="5"></textarea><br>
-          <div class="soumettre">
-          <input type="submit" value="ENTRER"/>
           
+          <div class="soumettre">
+            <input type="submit" value="ENTRER"/>
+          </div>
         </div>
-        </div>
-      </div>
-        </fieldset>
-      </form>
-    </div>
-    <div class="up">
-      <a href="#"><i class="fa-solid fa-angles-up"></i></a>
-    </div>
-    <footer>
-      <p>&copy;2023 MY-ANH CHAU, Tous droits réservés.</p>
-      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-      <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-      <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
-      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
-    </footer>
-  </body>
+      </fieldset>
+    </form>
+  </div>
+  
+  <div class="up">
+    <a href="#"><img src="Image/allup.png"></a>
+  </div>
+
+  <footer>
+    <p>&copy;2023 MY-ANH CHAU, Tous droits réservés.</p>
+    <a href="https://www.instagram.com/" target="_blank"><img src="Image/ig.png"></a>
+    <a href="https://www.youtube.com/" target="_blank"><img src="Image/yt.png"></a>
+    <a href="https://www.facebook.com/" target="_blank"><img src="Image/fb.png"></a>
+  </footer>
+</body>
+</body>
 </html>
