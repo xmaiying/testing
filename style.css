@@ -250,7 +250,7 @@ textarea {
 
 .centrer {
   padding-left: 130px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 /** PAGE PORTFOLIO**/
@@ -291,7 +291,7 @@ a {
   object-fit: cover;
 }
 
-.formulairePlainte {
+.formulaireplainte {
   display: block;
   background-color: #d62222;
   margin-left: 600px;
@@ -299,13 +299,13 @@ a {
   margin-bottom: 333px;
 }
 
-.nomComplet label {
+.nomcomplet label {
   display: inline;
   padding-left: 20px;
   padding-top: 20px;
 }
 
-.nomComplet input {
+.nomcomplet input {
   display: inline;
   margin-left: 20px;
   margin-top: 20px;
@@ -343,7 +343,7 @@ a {
   height: 840px;
 }
 
-.imageGauche img {
+.imagegauche img {
   float: left;
   margin-left: 0;
   margin-bottom: 0;
@@ -351,7 +351,7 @@ a {
   height: 760px;
 }
 
-.imageDroite img {
+.imagedroite img {
   float: right;
   margin-right: 0;
   margin-bottom: 0;
@@ -377,9 +377,10 @@ a {
 }
 
 .articleun a img{
-width: 42px;
-height: 42px;
+  width: 42px;
+  height: 42px;
 }
+
 .fleches img {
   width: 22px;
   height: 22px;
