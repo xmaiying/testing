@@ -3,13 +3,13 @@
     margin: 0;
     padding: 0;
     color: rgb(243, 227, 217);
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Baskerville', sans-serif;
     text-align: center;
     line-height: 1.5;
     scroll-behavior: smooth;
    
- /** PATGE ACCUEIL **/
+ /** PAGE ACCUEIL **/
  
    /** #0e0e0e **/
   }
@@ -18,7 +18,14 @@
     background-color: black;
   }
 
-
+footer a{
+  margin-top: 10px;
+ padding-bottom: 30px;
+}
+footer p{
+  font-size: 15px;
+ margin-bottom: 10px;
+}
 
   .bodyaccueil{
    
@@ -93,12 +100,6 @@
     }
 
 
-
-
-
-
-
-
         /* Page a propos */
     
   .apropos{
@@ -154,15 +155,17 @@
 
   .ordonnee {
     display: block;
+    
 }
 .ordonnee a{
+  
   text-decoration: none;
 }
 
 .ordonnee ol {
-  padding-left: 270px;
+
+  padding-left: 250px;
   margin-top: 33px;
-  float: left;
 }
 
 ol a:hover {
@@ -188,10 +191,9 @@ legend {
 }
 
 .services {
-  margin-left: 20px;
-  margin-right: 10px;
-  
+  margin-left: 80px;
 }
+
 .reglement   {
 background-color: rgba(24, 21, 18, 0.7);
 float: left;
@@ -297,6 +299,10 @@ table{
   border-radius: 13px;
   
 }
+a{
+  text-decoration: none;
+}
+
 
 
 /** Page contact**/
@@ -354,11 +360,48 @@ table{
   padding-top: 20px;
 }
 
-.up{
-  display: inline-block; 
-  margin-top: 50px;
-  margin-left: 1600px;
+
+
+/**LA PAGE TENDANCE**/
+
+
+.troisparties {
+  display: flex;
+  width: auto;
+  height: 840px;
+  }
+
+.imageGauche img{
+  float:left;
+  margin-left: 0;
+  margin-bottom: 0;
+  width: 600px;
+  height: 760px;
+
+
+}
+
+.imageDroite img{
+  float:right;
+  margin-right: 0;
+  margin-bottom: 0;
+  width: 600px;
+  height: 760px;
+ 
+
+}
+
+.articleun h2{
+  padding-top: 100px;
+}
+
+.articleun p{
+  width: 500px;
 }
 
 
+
+.fleches>div {
+  display: inline;
+}
 

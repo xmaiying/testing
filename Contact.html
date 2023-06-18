@@ -1,78 +1,107 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Maquifique</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://kit.fontawesome.com/e5437dc061.js" crossorigin="anonymous"></script>
+  </head>
+  <body class="bodyservice">
+    <nav class="nav">
+      <img class="logo" src="Image\logo.png">
+        <ul>
+          <li><a href="Accueil.html">Accueil</a></li>
+          <li><a href="Apropos.html">À propos</a></li>
+          <li><a href="Services.html">Services</a></li>
+          <li><a href="Details.html ">Details</a></li>
+          <li><a href="Contact.html ">Contact</a></li>
+        </ul>
+      </nav>
+      <div>
 
-  <meta charset="UTF-8">
 
-  <title>Maquifique</title>
+    <div class="services">
+      <a id="service"></a>
+      <div class="reglement">
+        <div>
+          <h1>N'hésitez pas à nous contacter !</h1><br>
+          <i class="fa-solid fa-bell"></i><br><br>
+          <h2>Avant la séance de maquillage...</h2><br>
+          <ul>
+            <li>Assurez-vous d'avoir une peau propre et hydratée.</li>
+            <li>Communiquez vos attentes et préférences au maquilleur.</li>
+            <li>Informez sur tout vos problème de peau ou d'allergie.</li>
+            <li>Démaquillez-vous avant la séance.</li>
+          </ul>
+        </div>
+<br>
+<div class="ordonnee">
+  <h1>La palette de vos envies : explorez notre univers maquifique !</h1>
+    <ol>
+      <li><a href="Apropos.html#histoire"> Histoire</a></li>
+      <li><a href="Apropos.html#mission">Mission</a></li>
+      <li><a href="Apropos.html#cosmetique">Cosmetique</a></li>
+    </ol>
+</div>
 
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/e5437dc061.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav class="nav">
-<img class="logo" src="Image\logo.png">
-  <ul>
-    <li><a href="Accueil.html">Accueil</a></li>
-    <li><a href="Apropos.html">À propos</a></li>
-    <li><a href="Services.html">Services</a></li>
-    <li><a href="Portfolio.html ">Portfolio</a></li>
-    <li><a href="Contact.html ">Contact</a></li>
-  </ul>
-</nav>
-<div>
-
-  <h1>Formulaire de Plainte</h1>
-  
-  <form action="#" method="post">
-    <div class="formulairePlainte">
-
-    <div class="nomComplet">
-      <label for="nom">Nom :</label>
-      <label for="nom">Prenom :</label><br>
+      </div>
+      <form class="formulaire">
+        <fieldset>
+          
+          <legend>Travaillons ensemble</legend>
+          <br/>
+          <a href="mailto:myanh_chau@outlook.com"><i class="fa-regular fa-envelope"></i></a>
+          <a href="mailto:myanh_chau@outlook.com">Email: Myanh_Chau@outlook.com</a>
       
-      <input type="text" id="nom" name="nom" required >
-      <input type="text" id="prenom" name="prenom" required>
-    </div>
-    
-    <div class="email">
-      <label for="email">Email :</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    
-    <div class="sujet">
-      <label for="sujet">Sujet :</label>
-      <input type="text" id="sujet" name="sujet" required>
-    </div>
-    
-    <div class="description">
-      <label for="description">Description :</label>
-      <textarea id="description" name="description" rows="4" required></textarea>
-    </div>
-    
-    <div class="date">
-      <label for="date">Date de l'incident :</label>
-      <input type="date" id="date" name="date" required>
-    </div>
-    
-    <div>
-      <input type="submit" value="Soumettre">
-    </div>
-  </div>
-  </form>
+<div class="centrer">
+          <label for="nomObligatoire">Nom complet (obligatoire)</label>
+          
+      
+          <div class="nomcompletlabel">
+          <label for="nom">Nom :</label>
+          <label for="prenom">Prénom :</label><br>
+          </div>
+       
+          <div class="nomcompletinput">
+          <input type="text" id="nom" name="nom" />
+          <input type="text" id="prenom" name="prenom" />
+        </div>
+      
 
-
-
-  <div class="up">
-    <a href="#"><i class="fa-solid fa-turn-up"></i></a>
+        <br><br>
+        
+          <label>Email (obligatoire)</label>
+          <div class="memeinput">
+          <input type="text" name="Email" />
+          </div>
+          <br>
+          
+          <label> Sujet </label>
+          <div class="memeinput">
+          <input type="text" name="sujet" />
+        </div>
+          <br>
+          
+          <label>Commentaire(s)/ Plainte(s) </label>
+          <textarea name="description" cols="60" rows="5"></textarea><br>
+          <div class="soumettre">
+          <input type="submit" value="ENTRER"/>
+          
+        </div>
+        </div>
+      </div>
+        </fieldset>
+      </form>
     </div>
-  <footer>
-    <p>&copy;2023 MY-ANH CHAU,Tous droits réservés. </p>
-    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
-    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
-    <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></i></a>
-    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></i></a>
-  </footer>
-</body>
+    <div class="up">
+      <a href="#"><i class="fa-solid fa-angles-up"></i></a>
+    </div>
+    <footer>
+      <p>&copy;2023 MY-ANH CHAU, Tous droits réservés.</p>
+      <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+      <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+    </footer>
+  </body>
 </html>
